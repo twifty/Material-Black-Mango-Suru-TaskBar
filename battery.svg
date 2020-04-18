@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 66" version="1.1">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #939597; }
+      .ColorScheme-Highlight { color: #1AD6AB; }
+      .ColorScheme-PositiveText { color: #2ecc71; }
+      .ColorScheme-NegativeText { color: #da4453; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#dd9b44" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#ad6c16" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#09D4DF" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#9269F4" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0"    stop-color= "#0abdc6" stop-opacity="1"/>
+      <stop offset="1"    stop-color= "#ea00d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#1AD6AB" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#329DB6" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#c9b184" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#aa7f2a" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#00F260" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#0575E6" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#FF8501" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#FFCB01" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#b2ced6" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#6da5b7" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#df5940" stop-opacity="1"/>
+      <stop offset="25%"   stop-color= "#d8d15f" stop-opacity="1"/>
+      <stop offset="50%"   stop-color= "#e9882a" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#279362" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#f618c7" stop-opacity="1"/>
+      <stop offset="20%"   stop-color= "#94ffab" stop-opacity="1"/>
+      <stop offset="50%"   stop-color= "#fbfd54" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#0f83ae" stop-opacity="1"/>
+    </linearGradient>
+
+    <path id="box" fill="none" d="m0 0h16v16h-16z" />
+
+    <clipPath id="clip-10">
+      <rect x="3" y="12.9" width="10" height="1.1" />
+    </clipPath>
+    <clipPath id="clip-20">
+      <rect x="3" y="11.8" width="10" height="2.2" />
+    </clipPath>
+    <clipPath id="clip-30">
+      <rect x="3" y="10.7" width="10" height="3.3" />
+    </clipPath>
+    <clipPath id="clip-40">
+      <rect x="3" y="9.6" width="10" height="4.4" />
+    </clipPath>
+    <clipPath id="clip-50">
+      <rect x="3" y="8.5" width="10" height="5.5" />
+    </clipPath>
+    <clipPath id="clip-60">
+      <rect x="3" y="7.4" width="10" height="6.6" />
+    </clipPath>
+    <clipPath id="clip-70">
+      <rect x="3" y="6.3" width="10" height="7.7" />
+    </clipPath>
+    <clipPath id="clip-80">
+      <rect x="3" y="5.2" width="10" height="8.8" />
+    </clipPath>
+    <clipPath id="clip-90">
+      <rect x="3" y="4.1" width="10" height="9.9" />
+    </clipPath>
+
+    <path id="battery-inner" d="M 5,14 V 3 h 6 v 11 z"/>
+
+    <path id="battery-border" d="m 3,13.160533 c 0.01,0.894934 -0.015,1.547734 0.262,2.0832 0.138,0.267734 0.373,0.48 0.666,0.597334 C 4.22,15.9584 4.568,16 5.006,16 H 11 c 0.438,0 0.786,-0.0416 1.078,-0.157867 C 12.371,15.7248 12.604,15.511467 12.742,15.2448 13.019,14.708267 12.99,14.055467 13,13.160533 V 3.8730667 C 12.99,2.9781333 13.019,2.3232 12.742,1.7877333 A 1.25,1.3333333 0 0 0 12.078,1.1914667 C 11.786,1.0741333 11.438,1.0666667 11,1.0666667 H 10 V 0 H 6 V 1.0666667 H 5.006 c -0.438,0 -0.786,0.00747 -1.078,0.1248 C 3.635,1.3088 3.4,1.52 3.262,1.7877333 2.985,2.3232 3.01,2.9781333 3,3.8730667 V 13.1584 Z M 4,13.1456 V 3.8752 C 4.01,2.9653333 4.04,2.4906667 4.137,2.3018667 4.153,2.272 4.194,2.224 4.279,2.1898667 4.341,2.1653333 4.579,2.1333333 5.006,2.1333333 H 11 c 0.427,0 0.664,0.032 0.727,0.056533 C 11.812,2.224 11.851,2.272 11.867,2.3018667 11.962,2.4864 11.99,2.9610667 12,3.8752 v 9.285333 c -0.01,0.910934 -0.038,1.384534 -0.133,1.568 -0.016,0.032 -0.055,0.07893 -0.14,0.113067 -0.123,0.04907 -0.349,0.09173 -0.727,0.09173 H 5.006 c -0.378,0 -0.604,-0.04267 -0.727,-0.09173 C 4.194,14.807467 4.153,14.759467 4.137,14.7296 4.039,14.539733 4.01,14.068267 4,13.1456 Z" />
+
+    <g id="battery-warning">
+      <use href="#battery-border" fill="currentColor" />
+      <use href="#battery-inner" fill="currentColor" opacity="0.35" />
+    </g>
+
+    <g id="battery-normal">
+      <use href="#battery-border" fill="url(#oomox)" />
+      <use href="#battery-inner" fill="url(#oomox)" opacity="0.35" />
+    </g>
+  </defs>
+
+  <!--
+    Battery is rendered first, over that one of the FillN/Unavailable elements
+    is rendered. AcAdapter is rendered over the top of everything if a cable
+    is detected (includes desktop PCs with no battery).
+  -->
+
+  <g id="Battery" transform="translate(0)">
+    <use href="#box" />
+    <!-- <use href="#battery-inner" opacity="0.35" /> -->
+    <use href="#battery-border" class="ColorScheme-NegativeText" fill="url(#oomox)" />
+  </g>
+  <g id="AcAdapter" transform="translate(22)">
+    <use href="#box" />
+    <use href="#battery-border" class="ColorScheme-PositiveText" fill="currentColor" />
+  </g>
+  <g id="Unavailable" transform="translate(44)">
+    <use href="#box" />
+    <use href="#battery-border" fill="url(#oomox)" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8,4 C 6.895,4 6,5.1506009 6,6.5708009 h 1 c 0,-0.7101 0.448,-1.2854004 1,-1.2854004 0.552,0 1,0.5753004 1,1.2854004 C 9,7.2805151 8.552,7.8583988 8,7.8583988 H 7 V 10.429199 H 8 V 9.1437991 c 1.105,0 2,-1.1522835 2,-2.5729982 C 10,5.1506009 9.105,4 8,4 Z m -1,7.714599 v 1.2854 h 1 v -1.2854 z" />
+    <!-- <path fill="url(#oomox)" class="ColorScheme-Text" d="M 6,1 V 2 H 3 V 14 C 3,14.55 3.446,15 4,15 H 12 C 12.554,15 13,14.55 13,14 V 2 H 10 V 1 Z M 8,5 C 9.105,5 10,5.8954 10,7 10,8.105 9.105,9 8,9 V 10 H 7 V 8 H 8 C 8.552,8 9,7.552 9,7 9,6.4477 8.552,6 8,6 7.448,6 7,6.4477 7,7 H 6 C 6,5.8954 6.895,5 8,5 Z M 7,11 H 8 V 12 H 7 Z"/> -->
+  </g>
+
+  <g id="Fill10" transform="translate(0,22)">
+    <use href="#box" />
+    <use href="#battery-warning" class="ColorScheme-NegativeText" />
+    <use href="#battery-inner" class="ColorScheme-NegativeText" fill="currentColor" clip-path="url(#clip-10)" />
+  </g>
+  <g id="Fill20" transform="translate(22,22)">
+    <use href="#box" />
+    <use href="#battery-warning" class="ColorScheme-NegativeText" />
+    <use href="#battery-inner" class="ColorScheme-NegativeText" fill="currentColor" clip-path="url(#clip-20)" />
+  </g>
+  <g id="Fill30" transform="translate(44,22)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" clip-path="url(#clip-30)" />
+  </g>
+  <g id="Fill40" transform="translate(66,22)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" clip-path="url(#clip-40)" />
+  </g>
+  <g id="Fill50" transform="translate(88,22)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" clip-path="url(#clip-50)" />
+  </g>
+
+  <g id="Fill60" transform="translate(0,44)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" clip-path="url(#clip-60)" />
+  </g>
+  <g id="Fill70" transform="translate(22,44)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" clip-path="url(#clip-70)" />
+  </g>
+  <g id="Fill80" transform="translate(44,44)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" clip-path="url(#clip-80)" />
+  </g>
+  <g id="Fill90" transform="translate(66,44)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" clip-path="url(#clip-90)" />
+  </g>
+  <g id="Fill100" transform="translate(88,44)">
+    <use href="#box" />
+    <use href="#battery-normal" class="ColorScheme-Text" />
+    <use href="#battery-inner" fill="url(#oomox)" class="ColorScheme-Text" />
+  </g>
+</svg>

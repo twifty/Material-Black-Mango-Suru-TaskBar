@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 44" version="1.1">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #939597; }
+      .ColorScheme-NeutralText { color: #f67400; }
+      .ColorScheme-Highlight { color:#5294e2; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ad6c16; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9269F4; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9b184; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#aa7f2a; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0575E6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #FF8501; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #FFCB01; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #b2ced6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #6da5b7; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #df5940; stop-opacity:1"/>
+      <stop offset="25%" style="stop-color: #d8d15f; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #e9882a; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #279362; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #f618c7; stop-opacity:1"/>
+      <stop offset="20%" style="stop-color: #94ffab; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #fbfd54; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #0f83ae; stop-opacity:1"/>
+    </linearGradient>
+
+    <path id="box" fill="none" d="m0 0h16v16h-16z" />
+  </defs>
+
+  <g id="software-updates-inactive" transform="translate(0,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 3.4043498,2 0,5 v 9 H 5.7869508 10.213049 16 V 5 L 12.59565,2 H 10.213049 5.7869508 Z m 0.3404348,1 h 4.1986981 4.1986983 l 2.269566,2 H 1.4752182 Z m 1.9291317,3 h 4.5391327 v 5 L 9.078266,10 7.9434827,11 6.8086994,10 5.6739163,11 Z" />
+  </g>
+  <g id="software-updates-important" transform="translate(22,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="m 12.8,9.9999999 3.199999,4.9999991 H 9.6 Z M 3.404297,2 0,5 v 8.999998 H 5.787109 9.34375 L 12.888672,8.4941403 16,13.384764 V 5 L 12.595703,2 H 10.212891 5.787109 Z M 3.74414,3 h 4.199219 4.199219 l 2.269531,2 h -12.9375 z m 1.929688,3 h 4.539063 v 4.999999 L 9.078125,9.9999997 7.943359,10.999999 6.808593,9.9999997 5.673828,10.999999 Z"/>
+  </g>
+  <g id="software-updates-security" transform="translate(44,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="m 14,10 c 0,1 -2,1 -2,1 v 3.000001 c 0,1 1,1 2,2 1,-1 2,-1 2,-2 V 11 c 0,0 -2,0 -2,-1 z M 3.4042969,2 0,5 v 9.000001 H 5.7871094 10.212891 11 v -3.666017 c 0,0 3,-6.49e-4 3,-1.5839836 0,0.9713986 1.127161,1.3451346 2,1.4902336 V 5 L 12.595703,2 H 10.212891 5.7871094 Z m 0.3398437,1 h 4.1992188 4.1992186 l 2.269531,2 H 1.4746094 Z m 1.9296875,3 h 4.5390629 v 5 L 9.078125,10 7.9433594,11 6.8085938,10 5.6738281,11 Z"/>
+  </g>
+
+  <g id="software-updates-updates" transform="translate(0,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="m 13.378155,8 2.728155,4.019545 h -1.364077 v 4.019546 H 12.014078 V 12.019545 H 10.65 l 1.364078,-2.009772 z M 3.404297,2 0,5 v 9 h 5.78711 4.425781 1.246093 V 12.591797 H 9.529297 L 11.458984,9.65625 13.390625,6.7207031 16,10.689453 V 5 L 12.595703,2 H 10.212891 5.78711 Z m 0.339844,1 h 4.199219 4.199218 l 2.269531,2 H 1.47461 Z m 1.929688,3 h 4.539062 v 5 L 9.078125,10 7.94336,11 6.808594,10 5.673829,11 Z"/>
+  </g>
+  <g id="software-updates-additional" transform="translate(22,22)">
+    <use href="#box" />
+    <path fill="currentColor" class="ColorScheme-Highlight warning" d="m 13.378155,8 2.728155,4.019545 h -1.364077 v 4.019546 H 12.014078 V 12.019545 H 10.65 l 1.364078,-2.009772 z M 3.404297,2 0,5 v 9 h 5.78711 4.425781 1.246093 V 12.591797 H 9.529297 L 11.458984,9.65625 13.390625,6.7207031 16,10.689453 V 5 L 12.595703,2 H 10.212891 5.78711 Z m 0.339844,1 h 4.199219 4.199218 l 2.269531,2 H 1.47461 Z m 1.929688,3 h 4.539062 v 5 L 9.078125,10 7.94336,11 6.808594,10 5.673829,11 Z"/>
+  </g>
+  <g id="software-updates-release" transform="translate(44,22)">
+    <use href="#box" />
+    <path fill="currentColor" class="ColorScheme-NeutralText" d="m 13.378155,8 2.728155,4.019545 h -1.364077 v 4.019546 H 12.014078 V 12.019545 H 10.65 l 1.364078,-2.009772 z M 3.404297,2 0,5 v 9 h 5.78711 4.425781 1.246093 V 12.591797 H 9.529297 L 11.458984,9.65625 13.390625,6.7207031 16,10.689453 V 5 L 12.595703,2 H 10.212891 5.78711 Z m 0.339844,1 h 4.199219 4.199218 l 2.269531,2 H 1.47461 Z m 1.929688,3 h 4.539062 v 5 L 9.078125,10 7.94336,11 6.808594,10 5.673829,11 Z"/>
+  </g>
+</svg>

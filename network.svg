@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 -352 250 550" version="2.0">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #939597; }
+      .ColorScheme-Highlight { color: #1AD6AB; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44"/>
+      <stop offset="100%" style="stop-color:#ad6c16"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF"/>
+      <stop offset="100%" style="stop-color:#9269F4"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6"/>
+      <stop offset="1" style="stop-color:#ea00d9"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB"/>
+      <stop offset="100%" style="stop-color:#329DB6"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9b184"/>
+      <stop offset="100%" style="stop-color:#aa7f2a"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260"/>
+      <stop offset="100%" style="stop-color:#0575E6"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8501"/>
+      <stop offset="100%" style="stop-color:#FFCB01"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b2ced6"/>
+      <stop offset="100%" style="stop-color:#6da5b7"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#df5940"/>
+      <stop offset="25%" style="stop-color:#d8d15f"/>
+      <stop offset="50%" style="stop-color:#e9882a"/>
+      <stop offset="100%" style="stop-color:#279362"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f618c7"/>
+      <stop offset="20%" style="stop-color:#94ffab"/>
+      <stop offset="50%" style="stop-color:#fbfd54"/>
+      <stop offset="100%" style="stop-color:#0f83ae"/>
+    </linearGradient>
+
+    <path id="box" fill="none" d="m0 0h16v16h-16z" />
+
+    <clipPath id="mobile-20">
+      <rect x="1" y="0" width="2.8" height="16" />
+    </clipPath>
+    <clipPath id="mobile-40">
+      <rect x="1" y="0" width="5.6" height="16" />
+    </clipPath>
+    <clipPath id="mobile-60">
+      <rect x="1" y="0" width="8.4" height="16" />
+    </clipPath>
+    <clipPath id="mobile-80">
+      <rect x="1" y="0" width="11.2" height="16" />
+    </clipPath>
+
+    <clipPath id="wireless-20">
+      <circle cx="8" cy="15" r="2.8" />
+    </clipPath>
+    <clipPath id="wireless-40">
+      <circle cx="8" cy="15" r="5.6" />
+    </clipPath>
+    <clipPath id="wireless-60">
+      <circle cx="8" cy="15" r="8.4" />
+    </clipPath>
+    <clipPath id="wireless-80">
+      <circle cx="8" cy="15" r="11.2" />
+    </clipPath>
+
+    <g id="mobile">
+      <use href="#box" />
+      <use href="#mobile-strength" opacity="0.3" />
+    </g>
+    <path id="mobile-strength" fill="url(#oomox)" class="ColorScheme-Text" d="M 1,15 15,1 V 15 Z"/>
+    <g id="mobile-locked">
+      <use href="#box" />
+      <path id="mobile-lock" fill="url(#oomox)" class="ColorScheme-Text" d="M 13,9 C 11.892,9 11,9.91 11,11.03 V 12 H 10 V 16 H 16 V 12 H 15 V 11.03 C 15,9.91 14.108,9 13,9 Z M 13,10 C 13.554,10 14,10.44 14,11 V 12 H 12 V 11 C 12,10.44 12.446,10 13,10 Z"/>
+      <use href="#mobile-locked-strength" opacity="0.3" />
+    </g>
+    <path id="mobile-locked-strength" fill="url(#oomox)" class="ColorScheme-Text" d="M 15,1.01 1,15.01 H 9 V 11.01 H 10.014 C 10.033,9.37 11.356,8.01 13,8.01 13.774,8.01 14.471,8.32 15,8.81 Z"/>
+    <path id="gprs" fill="url(#oomox)" class="ColorScheme-Text" d="m 1.0403346,1.6400178e-6 c 0,0 -0.99454829,-0.00762400002 -1.00240079,1.0167609599822 L 4.3610058e-5,5.9596677 C -0.00758039,6.9542158 0.98696806,6.9618397 0.98696806,6.9618397 L 5.9597091,6.9999564 C 6.954257,7.0075767 6.9618812,6.0130323 6.9618812,6.0130323 l 0.038117,-4.9727416 c 0,0 0.00763,-0.99454831 -0.9869241,-1.00217206 z M 2.5245329,1.0059856 4.5136294,1.0212336 c 0.9945482,0.00761 1.0104539,1.1764085 0.9869246,1.0021721 l -0.00383,0.4972742 -0.994548,-0.00761 0.00383,-0.4972741 -1.9890965,-0.015248 -0.022871,2.9836447 1.9890962,0.015248 0.00381,-0.4972744 -0.9945512,-0.00761 0.00763,-0.9945483 1.9890963,0.015248 -0.011433,1.4918222 c 0,0 -0.00763,0.9945486 -1.0021719,0.9869245 L 2.4864235,5.9787257 c 0,0 -0.9945481,-0.00761 -0.9869244,-1.0021722 L 1.5223722,1.992908 C 1.5300022,0.99835973 2.5245441,1.0059835 2.5245441,1.0059835 Z" />
+    <path id="edge" fill="url(#oomox)" class="ColorScheme-Text" d="M 1,0 C 0.446,0 0,0.446 0,1 V 6 C 0,6.554 0.446,7 1,7 H 6 C 6.554,7 7,6.554 7,6 V 1 C 7,0.446 6.554,0 6,0 Z m 1.5,1 h 3 v 1 h -3 v 1 h 2 v 1 h -2 v 1 h 3 v 1 h -3 c 0,0 -1,0 -1,-1 V 2 c 0,-1 1,-1 1,-1 z" />
+    <path id="umts" fill="url(#oomox)" class="ColorScheme-Text" d="M 1,0 C 0.446,0 0,0.446 0,1 V 6 C 0,6.554 0.446,7 1,7 H 6 C 6.554,7 7,6.554 7,6 V 1 C 7,0.446 6.554,0 6,0 Z m 0.5,1 h 1 v 4 h 2 V 1 h 1 v 4 c 0,0 0,1 -1,1 h -2 c 0,0 -1,0 -1,-1 z" />
+    <path id="hspa" fill="url(#oomox)" class="ColorScheme-Text" d="M 1,0 C 0.446,0 0,0.446 0,1 V 6 C 0,6.554 0.446,7 1,7 H 6 C 6.554,7 7,6.554 7,6 V 1 C 7,0.446 6.554,0 6,0 Z m 0.5,1 h 1 v 2 h 2 V 1 h 1 v 5 h -1 V 4 h -2 v 2 h -1 z" />
+    <path id="hsupa" fill="url(#oomox)" class="ColorScheme-Text" d="M 1,0 C 0.446,0 0,0.446 0,1 V 6 C 0,6.554 0.446,7 1,7 H 6 C 6.554,7 7,6.554 7,6 V 1 C 7,0.446 6.554,0 6,0 Z m 0.5,1 h 1 v 2 h 2 V 1 h 1 v 5 h -1 V 4 h -2 v 2 h -1 Z M 8.5,0 l 1,2.5 H 8.8333333 V 5 H 8.1666667 V 2.5 H 7.5 z" />
+    <path id="hsdpa" fill="url(#oomox)" class="ColorScheme-Text" d="M 1,0 C 0.446,0 0,0.446 0,1 V 6 C 0,6.554 0.446,7 1,7 H 6 C 6.554,7 7,6.554 7,6 V 1 C 7,0.446 6.554,0 6,0 Z m 0.5,1 h 1 v 2 h 2 V 1 h 1 v 5 h -1 V 4 h -2 v 2 h -1 z M 8.5,5 l 1,-2.5 H 8.8333333 V 0 H 8.1666667 V 2.5 H 7.5 Z" />
+    <path id="lte" fill="url(#oomox)" class="ColorScheme-Text" d="M 1,0 C 0.446,0 0,0.446 0,1 V 6 C 0,6.554 0.446,7 1,7 H 6 C 6.554,7 7,6.554 7,6 V 1 C 7,0.446 6.554,0 6,0 Z M 5,6 H 3 C 3,6 2,6 2,5 V 1 h 1 v 4 h 2" />
+    <g id="wireless">
+      <use href="#box" />
+      <use href="#wireless-strength" opacity="0.3" />
+    </g>
+    <path id="wireless-strength" fill="url(#oomox)" class="ColorScheme-Text" d="M 0,4 C 2.0806,2.0732 4.9494,1 8,1 c 3.051,0 5.919,1.0731 8,3 L 8,15 Z"/>
+    <g id="wireless-locked">
+      <use href="#box" />
+      <use href="#wireless-locked-strength" opacity="0.3" />
+      <path id="wireless-lock" fill="url(#oomox)" class="ColorScheme-Text" d="M 13,9 C 11.892,9 11,9.911 11,11.031 V 12 H 10 V 16 H 16 V 12 H 15 V 11.031 C 15,9.911 14.108,9 13,9 Z M 13,10 C 13.554,10 14,10.442 14,11 V 12 H 12 V 11 C 12,10.442 12.446,10 13,10 Z"/>
+    </g>
+    <path id="wireless-locked-strength" fill="url(#oomox)" class="ColorScheme-Text" d="M 8.031,2 C 4.9969,2 2.2653,3.2711 0,5.0156 L 8.031,14 9,12.906 V 11 H 10.014 C 10.033,9.365 11.356,8 13,8 13.108,8 13.21,8.022 13.314,8.033 L 16,5 C 13.743,3.2748 11.042,2 8.031,2 Z"/>
+    <g id="wireless-limited">
+      <use href="#box" />
+      <use href="#wireless-limited-strength" opacity="0.3" />
+      <path id="wireless-warn" fill="currentColor" class="ColorScheme-Highlight warning" d="M 12,6 V 10 L 12.25,12 H 13.75 L 14,10 V 6 Z M 12,13 V 15 H 14 V 13 Z"/>
+    </g>
+    <path id="wireless-limited-strength" fill="url(#oomox)" class="ColorScheme-Text" d="M 8,1 C 4.9494,1 2.0806,2.0732 0,4 l 8,10.9995 3,-3.375 V 5 h 4 V 6.125 L 16,4 C 13.919,2.0731 11.051,1 8,1 Z"/>
+    <g id="airplane-enabled">
+      <path fill="url(#oomox)" class="ColorScheme-Text" d="M 6.5,1 C 5.7,1 5.72,1.03 5.97,2.03 L 7.59,7 H 3.09 L 1.87,5.22 C 1.73,5.01 1.75,5 1.53,5 H 1.31 C 0.88003,5 1.03,5.43 1.03,5.43 L 1.31,8 1.03,10.56 C 1.03,10.56 0.89003,11 1.28,11 H 1.53 C 1.74,11 1.73,10.99 1.87,10.78 L 3.09,9 H 7.59 L 5.97,13.93 C 5.7,14.98 5.7,15 6.5,15 6.93,15 6.93,14.98 7.22,14.5 L 10.9,9 H 14 C 14.55,9 15,8.55 15,8 15,7.44 14.55,7 14,7 H 10.9 L 7.22,1.5 C 6.95,1.04 6.93,1 6.56,1 Z"/>
+    </g>
+    <g id="airplane-disabled">
+      <path fill="url(#oomox)" class="ColorScheme-Text" d="M 15,8 C 15,8.55 14.55,9 14,9 H 12.4 L 6.21,2.81 5.97,2.06 C 5.7,1.01 5.7,1 6.5,1 6.93,1 6.93,1.01 7.22,1.5 L 10.9,7 H 14 C 14.55,7 15,7.44 15,8 Z M 10.38,9.78 7.22,14.5 C 6.95,14.95 6.93,15 6.56,15 H 6.5 C 5.7,15 5.72,14.96 5.97,13.97 L 7.59,9 H 3.09 L 1.87,10.78 C 1.73,10.99 1.75,11 1.53,11 H 1.31 C 0.88,11 1.03,10.56 1.03,10.56 L 1.31,8 1.03,5.43 C 1.03,5.43 0.89,5 1.28,5 H 1.53 C 1.74,5 1.73,5.01 1.87,5.22 L 3.09,7 H 7.59 Z"/>
+      <path fill="url(#oomox)" class="ColorScheme-Text" d="M 15.06,13.65 2.34,0.93 0.93,2.34 13.65,15.06 Z"/>
+    </g>
+  </defs>
+
+  <g id="network-wired-activated" transform="translate(0,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2,2 C 2,2 1,2 1,3 V 12 C 1,13 2,13 2,13 H 4 L 5,14 H 11 L 12,13 H 14 C 14,13 15,13.13 15,12 V 3 C 15,2 14,2 14,2 Z M 3,4 H 13 V 11 H 11 L 10,12 H 6 L 5,11 H 3 Z"/>
+  </g>
+  <g id="network-wired-activated-locked" transform="translate(22,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2,2 C 2,2 1,2 1,3 V 12 C 1,13 2,13 2,13 H 4 L 5,14 H 9 V 12 H 6 L 5,11 H 3 V 4 H 13 V 8 C 13.774,8 14.471,8.309 15,8.801 V 3 C 15,2 14,2 14,2 Z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 13,9 C 11.892,9 11,9.911 11,11.031 V 12 H 10 V 16 H 16 V 12 H 15 V 11.031 C 15,9.911 14.108,9 13,9 Z M 13,10 C 13.554,10 14,10.442 14,11 V 12 H 12 V 11 C 12,10.442 12.446,10 13,10 Z"/>
+  </g>
+  <g id="network-wired-activated-limited" transform="translate(44,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2,2 C 2,2 1,2 1,3 V 12 C 1,13 2,13 2,13 H 4 L 5,14 H 11 V 11 L 10,12 H 6 L 5,11 H 3 V 4 H 13 V 5 H 15 V 3 C 15,2 14,2 14,2 Z"/>
+    <path fill="currentColor" class="ColorScheme-Highlight" d="M 12,6 V 10 L 12.25,12 H 13.75 L 14,10 V 6 Z M 12,13 V 15 H 14 V 13 Z"/>
+  </g>
+  <g id="network-wired-available" transform="translate(66,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2 2 C 2 2 1 2 1 3 L 1 12 C 1 13 2 13 2 13 L 4 13 L 5 14 L 11 14 L 12 13 L 14 13 C 14 13 15 13.13 15 12 L 15 3 C 15 2 14 2 14 2 L 2 2 z M 8 4 C 9.1 4 10 4.895 10 6 C 10 7.105 9.1 8 8 8 L 8 9 L 7 9 L 7 7 L 8 7 C 8.55 7 9 6.552 9 6 C 9 5.448 8.55 5 8 5 C 7.45 5 7 5.448 7 6 L 6 6 C 6 4.895 6.9 4 8 4 z M 7 10 L 8 10 L 8 11 L 7 11 L 7 10 z"/>
+  </g>
+  <g id="network-wired" transform="translate(88,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2,2 C 2,2 1,2 1,3 V 12 C 1,13 2,13 2,13 H 4 L 5,14 H 11 L 12,13 H 14 C 14,13 15,13.13 15,12 V 3 C 15,2 14,2 14,2 Z M 3,4 H 13 V 11 H 11 L 10,12 H 6 L 5,11 H 3 Z"/>
+  </g>
+  <g id="network-unavailable" transform="translate(110,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" opacity="0.3" d="M 2,2 C 2,2 1,2 1,3 V 12 C 1,13 2,13 2,13 H 4 L 5,14 H 10 V 12 H 6 L 5,11 H 3 V 4 H 13 V 10 H 15 V 3 C 15,2 14,2 14,2 Z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 11,11 V 12 C 11,12.27 11.1,12.53 11.28,12.72 L 12.06,13.5 11.28,14.28 C 11.1,14.46 11,14.72 11,15 V 16 H 12 C 12.28,16 12.54,15.9 12.72,15.72 L 13.5,14.93 14.28,15.72 C 14.46,15.9 14.72,16 15,16 H 16 V 15 C 16,14.72 15.9,14.46 15.72,14.28 L 14.94,13.5 15.72,12.72 C 15.9,12.53 16,12.27 16,12 V 11 H 15 C 14.72,11 14.46,11.1 14.28,11.28 L 13.5,12.06 12.72,11.28 C 12.54,11.1 12.28,11 12,11 Z"/>
+  </g>
+
+  <g id="network-mobile-100" transform="translate(0,-22)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+  </g>
+  <g id="network-mobile-80" transform="translate(22,-22)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+  </g>
+  <g id="network-mobile-60" transform="translate(44,-22)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+  </g>
+  <g id="network-mobile-40" transform="translate(66,-22)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+  </g>
+  <g id="network-mobile-20" transform="translate(88,-22)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+  </g>
+  <g id="network-mobile-0" transform="translate(110,-22)">
+    <use href="#mobile" />
+  </g>
+  <g id="network-mobile-available" transform="translate(132,-22)">
+    <path fill="none" d="m0 0h16v16h-16z" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 15,1 1,15 H 15 Z M 12,7 C 13.1,7 14,7.9 14,9 14,10.1 13.1,11 12,11 V 12 H 11 V 10 H 12 C 12.55,10 13,9.55 13,9 13,8.45 12.55,8 12,8 11.45,8 11,8.45 11,9 H 10 C 10,7.9 10.9,7 12,7 Z M 11,13 H 12 V 14 H 11 Z"/>
+  </g>
+  <g id="network-mobile-on" transform="translate(154,-22)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+  </g>
+  <g id="network-mobile-off" transform="translate(176,-22)">
+    <path fill="none" d="m0 0h16v16h-16z" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" opacity="0.3" d="M 15,1 1,15 H 10 V 10 H 15 Z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 11,11 V 12 C 11,12.28 11.1,12.54 11.28,12.72 L 12.06,13.5 11.28,14.28 C 11.1,14.47 11,14.73 11,15 V 16 H 12 C 12.28,16 12.54,15.9 12.72,15.72 L 13.5,14.94 14.28,15.72 C 14.46,15.9 14.73,16 15,16 H 16 V 15 C 16,14.73 15.9,14.47 15.72,14.28 L 14.94,13.5 15.72,12.72 C 15.9,12.54 16,12.28 16,12 V 11 H 15 C 14.73,11 14.46,11.1 14.28,11.28 L 13.5,12.07 12.72,11.28 C 12.54,11.1 12.28,11 12,11 Z"/>
+  </g>
+
+  <g id="network-mobile-100-locked" transform="translate(0,-44)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+  </g>
+  <g id="network-mobile-80-locked" transform="translate(22,-44)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+  </g>
+  <g id="network-mobile-60-locked" transform="translate(44,-44)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+  </g>
+  <g id="network-mobile-40-locked" transform="translate(66,-44)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+  </g>
+  <g id="network-mobile-20-locked" transform="translate(88,-44)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+  </g>
+  <g id="network-mobile-0-locked" transform="translate(110,-44)">
+    <use href="#mobile-locked" />
+  </g>
+
+  <g id="network-mobile-100-gprs" transform="translate(0,-66)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-80-gprs" transform="translate(22,-66)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-60-gprs" transform="translate(44,-66)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-40-gprs" transform="translate(66,-66)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-20-gprs" transform="translate(88,-66)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-0-gprs" transform="translate(110,-66)">
+    <use href="#mobile" />
+    <use href="#gprs" />
+  </g>
+
+  <g id="network-mobile-100-gprs-locked" transform="translate(0,-88)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-80-gprs-locked" transform="translate(22,-88)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-60-gprs-locked" transform="translate(44,-88)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-40-gprs-locked" transform="translate(66,-88)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-20-gprs-locked" transform="translate(88,-88)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+    <use href="#gprs" />
+  </g>
+  <g id="network-mobile-0-gprs-locked" transform="translate(110,-88)">
+    <use href="#mobile-locked" />
+    <use href="#gprs" />
+  </g>
+
+  <g id="network-mobile-100-edge" transform="translate(0,-110)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-80-edge" transform="translate(22,-110)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-60-edge" transform="translate(44,-110)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-40-edge" transform="translate(66,-110)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-20-edge" transform="translate(88,-110)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-0-edge" transform="translate(110,-110)">
+    <use href="#mobile" />
+    <use href="#edge" />
+  </g>
+
+  <g id="network-mobile-100-edge-locked" transform="translate(0,-132)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-80-edge-locked" transform="translate(22,-132)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-60-edge-locked" transform="translate(44,-132)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-40-edge-locked" transform="translate(66,-132)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-20-edge-locked" transform="translate(88,-132)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+    <use href="#edge" />
+  </g>
+  <g id="network-mobile-0-edge-locked" transform="translate(110,-132)">
+    <use href="#mobile-locked" />
+    <use href="#edge" />
+  </g>
+
+  <g id="network-mobile-100-umts" transform="translate(0,-154)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-80-umts" transform="translate(22,-154)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-60-umts" transform="translate(44,-154)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-40-umts" transform="translate(66,-154)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-20-umts" transform="translate(88,-154)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-0-umts" transform="translate(110,-154)">
+    <use href="#mobile" />
+    <use href="#umts" />
+  </g>
+
+  <g id="network-mobile-100-umts-locked" transform="translate(0,-176)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-80-umts-locked" transform="translate(22,-176)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-60-umts-locked" transform="translate(44,-176)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-40-umts-locked" transform="translate(66,-176)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-20-umts-locked" transform="translate(88,-176)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+    <use href="#umts" />
+  </g>
+  <g id="network-mobile-0-umts-locked" transform="translate(110,-176)">
+    <use href="#mobile-locked" />
+    <use href="#umts" />
+  </g>
+
+  <g id="network-mobile-100-hspa" transform="translate(0,-198)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-80-hspa" transform="translate(22,-198)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-60-hspa" transform="translate(44,-198)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-40-hspa" transform="translate(66,-198)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-20-hspa" transform="translate(88,-198)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-0-hspa" transform="translate(110,-198)">
+    <use href="#mobile" />
+    <use href="#hspa" />
+  </g>
+
+  <g id="network-mobile-100-hspa-locked" transform="translate(0,-220)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-80-hspa-locked" transform="translate(22,-220)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-60-hspa-locked" transform="translate(44,-220)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-40-hspa-locked" transform="translate(66,-220)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-20-hspa-locked" transform="translate(88,-220)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+    <use href="#hspa" />
+  </g>
+  <g id="network-mobile-0-hspa-locked" transform="translate(110,-220)">
+    <use href="#mobile-locked" />
+    <use href="#hspa" />
+  </g>
+
+  <g id="network-mobile-100-hsupa" transform="translate(0,-242)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-80-hsupa" transform="translate(22,-242)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-60-hsupa" transform="translate(44,-242)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-40-hsupa" transform="translate(66,-242)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-20-hsupa" transform="translate(88,-242)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-0-hsupa" transform="translate(110,-242)">
+    <use href="#mobile" />
+    <use href="#hsupa" />
+  </g>
+
+  <g id="network-mobile-100-hsupa-locked" transform="translate(0,-264)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-80-hsupa-locked" transform="translate(22,-264)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-60-hsupa-locked" transform="translate(44,-264)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-40-hsupa-locked" transform="translate(66,-264)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-20-hsupa-locked" transform="translate(88,-264)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+    <use href="#hsupa" />
+  </g>
+  <g id="network-mobile-0-hsupa-locked" transform="translate(110,-264)">
+    <use href="#mobile-locked" />
+    <use href="#hsupa" />
+  </g>
+
+  <g id="network-mobile-100-hsdpa" transform="translate(0,-286)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-80-hsdpa" transform="translate(22,-286)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-60-hsdpa" transform="translate(44,-286)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-40-hsdpa" transform="translate(66,-286)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-20-hsdpa" transform="translate(88,-286)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-0-hsdpa" transform="translate(110,-286)">
+    <use href="#mobile" />
+    <use href="#hsdpa" />
+  </g>
+
+  <g id="network-mobile-100-hsdpa-locked" transform="translate(0,-308)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-80-hsdpa-locked" transform="translate(22,-308)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-60-hsdpa-locked" transform="translate(44,-308)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-40-hsdpa-locked" transform="translate(66,-308)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-20-hsdpa-locked" transform="translate(88,-308)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+    <use href="#hsdpa" />
+  </g>
+  <g id="network-mobile-0-hsdpa-locked" transform="translate(110,-308)">
+    <use href="#mobile-locked" />
+    <use href="#hsdpa" />
+  </g>
+
+  <g id="network-mobile-100-lte" transform="translate(0,-330)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" />
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-80-lte" transform="translate(22,-330)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-80)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-60-lte" transform="translate(44,-330)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-60)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-40-lte" transform="translate(66,-330)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-40)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-20-lte" transform="translate(88,-330)">
+    <use href="#mobile" />
+    <use href="#mobile-strength" clip-path="url(#mobile-20)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-0-lte" transform="translate(110,-330)">
+    <use href="#mobile" />
+    <use href="#lte" />
+  </g>
+
+  <g id="network-mobile-100-lte-locked" transform="translate(0,-352)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" />
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-80-lte-locked" transform="translate(22,-352)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-80)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-60-lte-locked" transform="translate(44,-352)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-60)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-40-lte-locked" transform="translate(66,-352)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-40)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-20-lte-locked" transform="translate(88,-352)">
+    <use href="#mobile-locked" />
+    <use href="#mobile-locked-strength" clip-path="url(#mobile-20)"/>
+    <use href="#lte" />
+  </g>
+  <g id="network-mobile-0-lte-locked" transform="translate(110,-352)">
+    <use href="#mobile-locked" />
+    <use href="#lte" />
+  </g>
+
+  <g id="network-wireless-100" transform="translate(0,22)">
+    <use href="#wireless" />
+    <use href="#wireless-strength"/>
+  </g>
+  <g id="network-wireless-80" transform="translate(22,22)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-80)"/>
+  </g>
+  <g id="network-wireless-60" transform="translate(44,22)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-60)"/>
+  </g>
+  <g id="network-wireless-40" transform="translate(66,22)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-40)"/>
+  </g>
+  <g id="network-wireless-20" transform="translate(88,22)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-20)"/>
+  </g>
+  <g id="network-wireless-0" transform="translate(110,22)">
+    <use href="#wireless" />
+  </g>
+  <g id="network-wireless-on" transform="translate(132,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8 1 C 4.9494 1 2.0806 2.0732 0 4 L 8 15 L 16 4 C 13.919 2.0731 11.051 1 8 1 z M 8 3 C 9.9284169 3 11.635471 3.64124 13.130859 4.546875 L 8 11.601562 L 2.8691406 4.546875 C 4.3645301 3.641319 6.0719604 3 8 3 z"/>
+  </g>
+  <g id="network-wireless-available" transform="translate(154,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8,1 C 4.9494,1 2.0806,2.0732 0,4 L 8,15 16,4 C 13.919,2.0731 11.051,1 8,1 Z m 0,3 c 1.11,0 2,0.9 2,2 0,1.11 -0.89,2 -2,2 V 9 H 7 V 7 H 8 C 8.56,7 9,6.56 9,6 9,5.45 8.56,5 8,5 7.45,5 7,5.45 7,6 H 6 C 6,4.9 6.9,4 8,4 Z m -1,6 h 1 v 1 H 7 Z"/>
+  </g>
+  <g id="network-wireless-disconnected" transform="translate(176,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 11,11 V 12 C 11,12.28 11.1,12.54 11.28,12.72 L 12.06,13.5 11.28,14.28 C 11.1,14.47 11,14.73 11,15 V 16 H 12 C 12.28,16 12.54,15.9 12.72,15.72 L 13.5,14.94 14.28,15.72 C 14.46,15.9 14.73,16 15,16 H 16 V 15 C 16,14.73 15.9,14.47 15.72,14.28 L 14.94,13.5 15.72,12.72 C 15.9,12.54 16,12.28 16,12 V 11 H 15 C 14.73,11 14.46,11.1 14.28,11.28 L 13.5,12.07 12.72,11.28 C 12.54,11.1 12.28,11 12,11 Z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" opacity="0.3" d="M 8 1 C 4.9494 1 2.0806 2.0732 0 4 L 8 15 L 10.019531 12.222656 C 10.011891 12.148415 10 12.074553 10 12 L 10 11 L 10 10 L 11.636719 10 L 16 4 C 13.919 2.0731 11.051 1 8 1 z"/>
+  </g>
+  <g id="network-wireless-off" transform="translate(198,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" opacity="0.3" d="M 8 1 C 4.9494 1 2.0806 2.0732 0 4 L 8 15 L 16 4 C 13.919 2.0731 11.051 1 8 1 z M 8 3 C 9.9284169 3 11.635471 3.64124 13.130859 4.546875 L 8 11.601562 L 2.8691406 4.546875 C 4.3645301 3.641319 6.0719604 3 8 3 z"/>
+  </g>
+
+  <g id="network-wireless-connected-100" transform="translate(0,44)">
+    <use href="#wireless" />
+    <use href="#wireless-strength"/>
+  </g>
+  <g id="network-wireless-connected-80" transform="translate(22,44)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-80)"/>
+  </g>
+  <g id="network-wireless-connected-60" transform="translate(44,44)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-60)"/>
+  </g>
+  <g id="network-wireless-connected-40" transform="translate(66,44)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-40)"/>
+  </g>
+  <g id="network-wireless-connected-20" transform="translate(88,44)">
+    <use href="#wireless" />
+    <use href="#wireless-strength" clip-path="url(#wireless-20)"/>
+  </g>
+  <g id="network-wireless-connected-0" transform="translate(110,44)">
+    <use href="#wireless" />
+  </g>
+
+  <g id="network-wireless-100-locked" transform="translate(0,66)">
+    <use href="#wireless-locked" />
+    <use href="#wireless-locked-strength"/>
+  </g>
+  <g id="network-wireless-80-locked" transform="translate(22,66)">
+    <use href="#wireless-locked" />
+    <use href="#wireless-locked-strength" clip-path="url(#wireless-80)"/>
+  </g>
+  <g id="network-wireless-60-locked" transform="translate(44,66)">
+    <use href="#wireless-locked" />
+    <use href="#wireless-locked-strength" clip-path="url(#wireless-60)"/>
+  </g>
+  <g id="network-wireless-40-locked" transform="translate(66,66)">
+    <use href="#wireless-locked" />
+    <use href="#wireless-locked-strength" clip-path="url(#wireless-40)"/>
+  </g>
+  <g id="network-wireless-20-locked" transform="translate(88,66)">
+    <use href="#wireless-locked" />
+    <use href="#wireless-locked-strength" clip-path="url(#wireless-20)"/>
+  </g>
+  <g id="network-wireless-0-locked" transform="translate(110,66)">
+    <use href="#wireless-locked" />
+  </g>
+
+  <g id="network-wireless-100-limited" transform="translate(0,88)">
+    <use href="#wireless-limited" />
+    <use href="#wireless-limited-strength"/>
+  </g>
+  <g id="network-wireless-80-limited" transform="translate(22,88)">
+    <use href="#wireless-limited" />
+    <use href="#wireless-limited-strength" clip-path="url(#wireless-80)"/>
+  </g>
+  <g id="network-wireless-60-limited" transform="translate(44,88)">
+    <use href="#wireless-limited" />
+    <use href="#wireless-limited-strength" clip-path="url(#wireless-60)"/>
+  </g>
+  <g id="network-wireless-40-limited" transform="translate(66,88)">
+    <use href="#wireless-limited" />
+    <use href="#wireless-limited-strength" clip-path="url(#wireless-40)"/>
+  </g>
+  <g id="network-wireless-20-limited" transform="translate(88,88)">
+    <use href="#wireless-limited" />
+    <use href="#wireless-limited-strength" clip-path="url(#wireless-20)"/>
+  </g>
+  <g id="network-wireless-0-limited" transform="translate(110,88)">
+    <use href="#wireless-limited" />
+  </g>
+
+  <g id="network-flightmode-on" transform="translate(0,110)">
+    <use href="#box" />
+    <use href="#airplane-enabled" />
+  </g>
+  <g id="network-flightmode-off" transform="translate(22,110)">
+    <use href="#box" />
+    <use href="#airplane-disabled" />
+  </g>
+  <g id="flightmode-on" transform="translate(44,110)">
+    <use href="#box" />
+    <use href="#airplane-enabled" />
+  </g>
+  <g id="flightmode-off" transform="translate(66,110)">
+    <use href="#box" />
+    <use href="#airplane-disabled" />
+  </g>
+
+  <g id="edit" transform="translate(0,132)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8.5,0 C 7.28679,0 6.27974,0.85686 6.04883,2 H 0 V 3 H 6.04883 C 6.27902,4.14407 7.28614,5 8.5,5 9.71386,5 10.71902,4.14407 10.94922,3 H 16 V 2 H 10.94922 C 10.71831,0.85686 9.7132,0 8.5,0 Z m -6,11 C 1.115,11 0,12.115 0,13.5 0,14.885 1.115,16 2.5,16 3.71386,16 4.71902,15.14407 4.94922,14 H 16 V 13 H 4.94922 C 4.71831,11.85686 3.7132,11 2.5,11 Z m 0,1 C 3.331,12 4,12.669 4,13.5 4,14.331 3.331,15 2.5,15 1.669,15 1,14.331 1,13.5 1,12.669 1.669,12 2.5,12 Z" />
+  </g>
+  <g id="edit-hover" transform="translate(22,132)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" opacity="0.3" d="M 8.5,0 C 7.28679,0 6.27974,0.85686 6.04883,2 H 0 V 3 H 6.04883 C 6.27902,4.14407 7.28614,5 8.5,5 9.71386,5 10.71902,4.14407 10.94922,3 H 16 V 2 H 10.94922 C 10.71831,0.85686 9.7132,0 8.5,0 Z m -6,11 C 1.115,11 0,12.115 0,13.5 0,14.885 1.115,16 2.5,16 3.71386,16 4.71902,15.14407 4.94922,14 H 16 V 13 H 4.94922 C 4.71831,11.85686 3.7132,11 2.5,11 Z m 0,1 C 3.331,12 4,12.669 4,13.5 4,14.331 3.331,15 2.5,15 1.669,15 1,14.331 1,13.5 1,12.669 1.669,12 2.5,12 Z" />
+  </g>
+  <g id="showinfo" transform="translate(44,132)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8,1 C 4.13,1 1,4.13 1,8 1,11.87 4.13,15 8,15 11.87,15 15,11.87 15,8 15,4.13 11.87,1 8,1 Z M 8,3.75 C 8.69,3.75 9.25,4.31 9.25,5 9.25,5.69 8.69,6.25 8,6.25 7.31,6.25 6.75,5.69 6.75,5 6.75,4.31 7.31,3.75 8,3.75 Z M 7,7 H 9 V 12 H 7 Z"/>
+  </g>
+  <g id="showinfo-hover" transform="translate(66,132)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" opacity="0.3" d="M 8,1 C 4.13,1 1,4.13 1,8 1,11.87 4.13,15 8,15 11.87,15 15,11.87 15,8 15,4.13 11.87,1 8,1 Z M 8,3.75 C 8.69,3.75 9.25,4.31 9.25,5 9.25,5.69 8.69,6.25 8,6.25 7.31,6.25 6.75,5.69 6.75,5 6.75,4.31 7.31,3.75 8,3.75 Z M 7,7 H 9 V 12 H 7 Z"/>
+  </g>
+  
+  <g id="network-bluetooth-activated" transform="translate(0,154)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8 1 C 5.23 1 3 3.345 3 6.25 L 3 9.75 C 3 12.655 5.23 15 8 15 C 10.77 15 13 12.655 13 9.75 L 13 6.25 C 13 3.345 10.77 1 8 1 z M 7.4980469 3 A 0.50005 0.50005 0 0 1 7.8203125 3.1152344 L 10.820312 5.6152344 A 0.50005 0.50005 0 0 1 10.787109 6.4101562 L 8.515625 8 L 10.787109 9.5898438 A 0.50005 0.50005 0 0 1 10.820312 10.384766 L 7.8203125 12.884766 A 0.50005 0.50005 0 0 1 7 12.5 L 7 9.0605469 L 5.7871094 9.9101562 A 0.50065948 0.50065948 0 0 1 5.2128906 9.0898438 L 6.7695312 8 L 5.2128906 6.9101562 A 0.50065948 0.50065948 0 0 1 5.7871094 6.0898438 L 7 6.9394531 L 7 3.5 A 0.50005 0.50005 0 0 1 7.4980469 3 z M 8 4.5683594 L 8 7.1386719 L 9.6757812 5.9648438 L 8 4.5683594 z M 8 8.8613281 L 8 11.431641 L 9.6757812 10.035156 L 8 8.8613281 z"/>
+  </g>
+  <g id="network-bluetooth-activated-locked" transform="translate(22,154)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8 1 C 5.23 1 3 3.345 3 6.25 L 3 9.75 C 3 12.655 5.23 15 8 15 L 8 12.734375 L 7.8203125 12.884766 A 0.50005 0.50005 0 0 1 7 12.5 L 7 9.0605469 L 5.7871094 9.9101562 A 0.50065948 0.50065948 0 0 1 5.2128906 9.0898438 L 6.7695312 8 L 5.2128906 6.9101562 A 0.50065948 0.50065948 0 0 1 5.7871094 6.0898438 L 7 6.9394531 L 7 3.5 A 0.50005 0.50005 0 0 1 7.4980469 3 A 0.50005 0.50005 0 0 1 7.8203125 3.1152344 L 10.820312 5.6152344 A 0.50005 0.50005 0 0 1 10.787109 6.4101562 L 8.515625 8 L 9.3847656 8.6074219 C 9.889026 7.6618976 10.861504 7 12 7 C 12.352911 7 12.686419 7.0744726 13 7.1894531 L 13 6.25 C 13 3.345 10.77 1 8 1 z M 8 4.5683594 L 8 7.1386719 L 9.6757812 5.9648438 L 8 4.5683594 z M 12 8 C 10.892 8 10 8.911251 10 10.03125 L 10 11 L 9 11 L 9 15 L 15 15 L 15 11 L 14 11 L 14 10.03125 C 14 8.911251 13.108 8.0000001 12 8 z M 8 8.8613281 L 8 11 C 8.0000552 10.447738 8.4477381 10.000055 9 10 L 9.0136719 10 C 9.0153093 9.8637481 9.039421 9.7334361 9.0585938 9.6015625 L 8 8.8613281 z M 12 9 C 12.554 9 13 9.440001 13 10 L 13 11 L 11 11 L 11 10 C 11 9.440001 11.446 9 12 9 z"/>
+  </g>
+  <g id="network-bluetooth" transform="translate(44,154)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" opacity="0.3" d="M 8 1 C 5.23 1 3 3.345 3 6.25 L 3 9.75 C 3 12.655 5.23 15 8 15 C 10.77 15 13 12.655 13 9.75 L 13 6.25 C 13 3.345 10.77 1 8 1 z M 7.4980469 3 A 0.50005 0.50005 0 0 1 7.8203125 3.1152344 L 10.820312 5.6152344 A 0.50005 0.50005 0 0 1 10.787109 6.4101562 L 8.515625 8 L 10.787109 9.5898438 A 0.50005 0.50005 0 0 1 10.820312 10.384766 L 7.8203125 12.884766 A 0.50005 0.50005 0 0 1 7 12.5 L 7 9.0605469 L 5.7871094 9.9101562 A 0.50065948 0.50065948 0 0 1 5.2128906 9.0898438 L 6.7695312 8 L 5.2128906 6.9101562 A 0.50065948 0.50065948 0 0 1 5.7871094 6.0898438 L 7 6.9394531 L 7 3.5 A 0.50005 0.50005 0 0 1 7.4980469 3 z M 8 4.5683594 L 8 7.1386719 L 9.6757812 5.9648438 L 8 4.5683594 z M 8 8.8613281 L 8 11.431641 L 9.6757812 10.035156 L 8 8.8613281 z"/>
+  </g>
+  <g id="network-vpn" transform="translate(66,154)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 4.5,4 C 2.015,4 0,6.01 0,8.5 0,10.99 2.015,13 4.5,13 6.405,13 8.101,11.8 8.736,10 H 12 V 12 H 15 V 9.99 L 16,10 V 7 H 8.736 C 8.101,5.2 6.405,4 4.5,4 Z M 4.5,7 C 5.328,7 6,7.67 6,8.5 6,9.33 5.328,10 4.5,10 3.672,10 3,9.33 3,8.5 3,7.67 3.672,7 4.5,7 Z"/>
+  </g>
+</svg>

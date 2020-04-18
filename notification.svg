@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 66 66">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #939597; }
+      .ColorScheme-Highlight { color: #1AD6AB; }
+      .ColorScheme-ButtonFocus { color:#3daee9; }
+      .ColorScheme-NegativeText { color:#da4453; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44"/>
+      <stop offset="100%" style="stop-color:#ad6c16"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF"/>
+      <stop offset="100%" style="stop-color:#9269F4"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6"/>
+      <stop offset="1" style="stop-color:#ea00d9"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB"/>
+      <stop offset="100%" style="stop-color:#329DB6"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9b184"/>
+      <stop offset="100%" style="stop-color:#aa7f2a"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260"/>
+      <stop offset="100%" style="stop-color:#0575E6"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8501"/>
+      <stop offset="100%" style="stop-color:#FFCB01"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b2ced6"/>
+      <stop offset="100%" style="stop-color:#6da5b7"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#df5940"/>
+      <stop offset="25%" style="stop-color:#d8d15f"/>
+      <stop offset="50%" style="stop-color:#e9882a"/>
+      <stop offset="100%" style="stop-color:#279362"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f618c7"/>
+      <stop offset="20%" style="stop-color:#94ffab"/>
+      <stop offset="50%" style="stop-color:#fbfd54"/>
+      <stop offset="100%" style="stop-color:#0f83ae"/>
+    </linearGradient>
+
+    <path id="box" fill="none" d="m0 0h16v16h-16z" />
+  </defs>
+
+  <g id="notification-active" transform="translate(0,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 11.09,1.7012 C 8.8767,0.95343 6.3842,1.8377 5.1695,3.9414 L 2.9195,7.8379 0.18707,8.5703 -0.06293,9.0039 1.6695,10.004 10.33,15.004 12.063,16.004 12.313,15.57 11.58,12.838 12.83,10.674 13.83,8.9414 C 14.375,7.9984 14.561,6.9577 14.463,5.9551 14.311,5.9792 14.158,6.0039 14,6.0039 12.355,6.0039 11,4.6489 11,3.0039 11,2.5677 11.099,2.1552 11.273,1.782 11.273,1.782 11.092,1.7019 11.09,1.7012 Z M 4.0016,12.504 C 4.0016,13.218 4.3816,13.879 4.9996,14.236 5.6179,14.592 6.3799,14.591 6.9976,14.234 Z"/>
+    <path fill="currentColor" class="ColorScheme-Highlight warning" d="M 16,3 A 2,2 0 0 1 14,5 2,2 0 0 1 12,3 2,2 0 0 1 14,1 2,2 0 0 1 16,3 Z"/>
+  </g>
+  <g id="notification-inactive" transform="translate(22,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8,1 C 8.55,1 9,1.45 9,2 9,2.03 9,2.07 8.99,2.1 11.28,2.56 13,4.57 13,7 V 9 11.5 L 15,13.5 V 14 H 13 3 1 V 13.5 L 3,11.5 V 7 C 3,4.57 4.72,2.56 7.01,2.1 7,2.07 7,2.03 7,2 7,1.45 7.45,1 8,1 Z M 9.73,15 C 9.37,15.62 8.71,16 8,16 7.29,16 6.63,15.62 6.27,15 Z"/>
+  </g>
+  <g id="notification-disabled" transform="translate(44,0)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8 1 C 7.45 1 7 1.45 7 2 C 7 2.03 6.9998 2.0696 7.0098 2.0996 C 6.513 2.1994 6.0506 2.385 5.6191 2.6191 L 13 10 L 13 9 L 13 7 C 13 4.57 11.28 2.5596 8.9902 2.0996 C 9.0002 2.0696 9 2.03 9 2 C 9 1.45 8.55 1 8 1 z M 4.0078 4.0078 C 3.3813 4.8419 3 5.8717 3 7 L 3 11.5 L 1 13.5 L 1 14 L 3 14 L 13 14 L 14 14 L 4.0078 4.0078 z M 6.2695 15 C 6.6295 15.62 7.29 16 8 16 C 8.71 16 9.3705 15.62 9.7305 15 L 6.2695 15 z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2.5,1.5 15,14 13.5,15.5 1,3 Z"/>
+  </g>
+
+  <g id="notification-empty" transform="translate(0,22)">
+    <use href="#box" />
+    <path fill="currentColor" class="ColorScheme-Text" d="M 8,0 A 8,8 0 0 0 0,8 8,8 0 0 0 8,16 8,8 0 0 0 16,8 8,8 0 0 0 8,0 Z M 8,1 A 7,7 0 0 1 15,8 7,7 0 0 1 8,15 7,7 0 0 1 1,8 7,7 0 0 1 8,1 Z"/>
+  </g>
+  <g id="notification-progress-active" transform="translate(22,22)">
+    <use href="#box" />
+    <circle fill="currentColor" class="ColorScheme-ButtonFocus" r="8" cy="8" cx="8" />
+  </g>
+  <g id="notification-progress-inactive" transform="translate(44,22)">
+    <use href="#box" />
+    <circle opacity=".4" fill="currentColor" class="ColorScheme-Text" r="8" cy="8" cx="8" />
+  </g>
+
+  <g id="_expanders" transform="translate(0,44)">
+    <path id="expander-bottom" fill="currentColor" class="ColorScheme-Text" d="m 6,11 2,-2 2,2 z" />
+    <path id="expander-top" fill="currentColor" class="ColorScheme-Text" d="m 6,5 2,2 2,-2 z" />
+
+    <path id="expander-right" fill="currentColor" class="ColorScheme-Text" d="m 11,6 -2,2 2,2 z" />
+    <path id="expander-left" fill="currentColor" class="ColorScheme-Text" d="m 5,6 2,2 -2,2 z" />
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" version="1.1">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #939597; }
+      .ColorScheme-Highlight { color: #1AD6AB; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#dd9b44" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#ad6c16" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#09D4DF" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#9269F4" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0"    stop-color= "#0abdc6" stop-opacity="1"/>
+      <stop offset="1"    stop-color= "#ea00d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#1AD6AB" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#329DB6" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#c9b184" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#aa7f2a" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#00F260" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#0575E6" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#FF8501" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#FFCB01" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#b2ced6" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#6da5b7" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#df5940" stop-opacity="1"/>
+      <stop offset="25%"   stop-color= "#d8d15f" stop-opacity="1"/>
+      <stop offset="50%"   stop-color= "#e9882a" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#279362" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%"    stop-color= "#f618c7" stop-opacity="1"/>
+      <stop offset="20%"   stop-color= "#94ffab" stop-opacity="1"/>
+      <stop offset="50%"   stop-color= "#fbfd54" stop-opacity="1"/>
+      <stop offset="100%"  stop-color= "#0f83ae" stop-opacity="1"/>
+    </linearGradient>
+
+    <path id="box" fill="none" d="m0 0h16v16h-16z" />
+  </defs>
+
+  <g id="media-playback-playing">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" fill-rule="evenodd" d="M 10.465 0.533 C 15.308 0.533 16 1.224 16 6.063 L 16 9.938 C 16 14.776 15.308 15.467 10.465 15.467 L 5.535 15.467 C 0.692 15.467 0 14.776 0 9.938 L 0 6.063 C 0 1.224 0.692 0.533 5.535 0.533 L 10.465 0.533 Z M 10.47 2.03 C 10.99 2.03 11.5 2.04 12.02 2.07 C 12.39 2.09 12.75 2.13 13.11 2.19 C 13.33 2.23 13.54 2.29 13.74 2.38 C 13.83 2.42 13.92 2.48 13.99 2.54 C 14.06 2.62 14.11 2.7 14.15 2.79 C 14.24 2.99 14.3 3.2 14.34 3.42 C 14.4 3.78 14.44 4.14 14.46 4.51 C 14.49 5.03 14.5 5.54 14.5 6.06 C 14.5 6.06 14.5 6.06 14.5 6.06 L 14.5 9.94 C 14.5 9.94 14.5 9.94 14.5 9.95 C 14.5 10.46 14.49 10.97 14.46 11.49 C 14.44 11.86 14.4 12.22 14.34 12.58 C 14.3 12.8 14.24 13.01 14.15 13.21 C 14.11 13.3 14.06 13.38 13.99 13.46 C 13.92 13.52 13.83 13.58 13.74 13.62 C 13.54 13.71 13.33 13.77 13.11 13.81 C 12.75 13.87 12.39 13.91 12.02 13.93 C 11.5 13.96 10.99 13.97 10.47 13.97 C 10.47 13.97 10.47 13.97 10.47 13.97 L 5.53 13.97 C 5.53 13.97 5.53 13.97 5.53 13.97 C 5.01 13.97 4.5 13.96 3.98 13.93 C 3.61 13.91 3.25 13.87 2.89 13.81 C 2.67 13.77 2.46 13.71 2.26 13.62 C 2.17 13.58 2.08 13.52 2.01 13.46 C 1.94 13.38 1.89 13.3 1.85 13.21 C 1.76 13.01 1.7 12.8 1.66 12.58 C 1.6 12.22 1.56 11.86 1.54 11.49 C 1.51 10.97 1.5 10.46 1.5 9.95 C 1.5 9.94 1.5 9.94 1.5 9.94 L 1.5 6.06 C 1.5 6.06 1.5 6.06 1.5 6.06 C 1.5 5.54 1.51 5.03 1.54 4.51 C 1.56 4.14 1.6 3.78 1.66 3.42 C 1.7 3.2 1.76 2.99 1.85 2.79 C 1.89 2.7 1.94 2.62 2.01 2.54 C 2.08 2.48 2.17 2.42 2.26 2.38 C 2.46 2.29 2.67 2.23 2.89 2.19 C 3.25 2.13 3.61 2.09 3.98 2.07 C 4.5 2.04 5.01 2.03 5.53 2.03 C 5.53 2.03 5.53 2.03 5.53 2.03 L 10.47 2.03 C 10.47 2.03 10.47 2.03 10.47 2.03 Z M 4.312 4.02 L 4.312 12.022 C 4.312 12.022 8.371 10.382 11.688 8.019 C 11.688 8.018 11.687 8.018 11.686 8.017 C 11.686 8.015 11.686 8.015 11.685 8.014 C 11.684 8.013 11.684 8.012 11.683 8.011 C 11.683 8.01 11.683 8.01 11.683 8.009 C 8.184 5.57 4.312 4.02 4.312 4.02 L 4.312 4.02 Z"/>
+  </g>
+  <g id="media-playback-paused" transform="translate(22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" fill-rule="evenodd" d="M 4 4 L 4 12 L 6.667 12 L 6.667 4 L 4 4 Z M 9.333 4 L 9.333 12 L 12 12 L 12 4 L 9.333 4 Z M 10.465 0.533 C 15.308 0.533 16 1.224 16 6.063 L 16 9.938 C 16 14.776 15.308 15.467 10.465 15.467 L 5.535 15.467 C 0.692 15.467 0 14.776 0 9.938 L 0 6.063 C 0 1.224 0.692 0.533 5.535 0.533 L 10.465 0.533 Z M 10.47 2.03 C 10.99 2.03 11.5 2.04 12.02 2.07 C 12.39 2.09 12.75 2.13 13.11 2.19 C 13.33 2.23 13.54 2.29 13.74 2.38 C 13.83 2.42 13.92 2.48 13.99 2.54 C 14.06 2.62 14.11 2.7 14.15 2.79 C 14.24 2.99 14.3 3.2 14.34 3.42 C 14.4 3.78 14.44 4.14 14.46 4.51 C 14.49 5.03 14.5 5.54 14.5 6.06 C 14.5 6.06 14.5 6.06 14.5 6.06 L 14.5 9.94 C 14.5 9.94 14.5 9.94 14.5 9.95 C 14.5 10.46 14.49 10.97 14.46 11.49 C 14.44 11.86 14.4 12.22 14.34 12.58 C 14.3 12.8 14.24 13.01 14.15 13.21 C 14.11 13.3 14.06 13.38 13.99 13.46 C 13.92 13.52 13.83 13.58 13.74 13.62 C 13.54 13.71 13.33 13.77 13.11 13.81 C 12.75 13.87 12.39 13.91 12.02 13.93 C 11.5 13.96 10.99 13.97 10.47 13.97 C 10.47 13.97 10.47 13.97 10.47 13.97 L 5.53 13.97 C 5.53 13.97 5.53 13.97 5.53 13.97 C 5.01 13.97 4.5 13.96 3.98 13.93 C 3.61 13.91 3.25 13.87 2.89 13.81 C 2.67 13.77 2.46 13.71 2.26 13.62 C 2.17 13.58 2.08 13.52 2.01 13.46 C 1.94 13.38 1.89 13.3 1.85 13.21 C 1.76 13.01 1.7 12.8 1.66 12.58 C 1.6 12.22 1.56 11.86 1.54 11.49 C 1.51 10.97 1.5 10.46 1.5 9.95 C 1.5 9.94 1.5 9.94 1.5 9.94 L 1.5 6.06 C 1.5 6.06 1.5 6.06 1.5 6.06 C 1.5 5.54 1.51 5.03 1.54 4.51 C 1.56 4.14 1.6 3.78 1.66 3.42 C 1.7 3.2 1.76 2.99 1.85 2.79 C 1.89 2.7 1.94 2.62 2.01 2.54 C 2.08 2.48 2.17 2.42 2.26 2.38 C 2.46 2.29 2.67 2.23 2.89 2.19 C 3.25 2.13 3.61 2.09 3.98 2.07 C 4.5 2.04 5.01 2.03 5.53 2.03 C 5.53 2.03 5.53 2.03 5.53 2.03 L 10.47 2.03 C 10.47 2.03 10.47 2.03 10.47 2.03 Z"/>
+  </g>
+  <g id="media-playback-stopped" transform="translate(44)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" fill-rule="evenodd" d="M 10.465 0.533 C 15.308 0.533 16 1.224 16 6.063 L 16 9.938 C 16 14.776 15.308 15.467 10.465 15.467 L 5.535 15.467 C 0.692 15.467 0 14.776 0 9.938 L 0 6.063 C 0 1.224 0.692 0.533 5.535 0.533 L 10.465 0.533 Z M 10.47 2.03 C 10.99 2.03 11.5 2.04 12.02 2.07 C 12.39 2.09 12.75 2.13 13.11 2.19 C 13.33 2.23 13.54 2.29 13.74 2.38 C 13.83 2.42 13.92 2.48 13.99 2.54 C 14.06 2.62 14.11 2.7 14.15 2.79 C 14.24 2.99 14.3 3.2 14.34 3.42 C 14.4 3.78 14.44 4.14 14.46 4.51 C 14.49 5.03 14.5 5.54 14.5 6.06 C 14.5 6.06 14.5 6.06 14.5 6.06 L 14.5 9.94 C 14.5 9.94 14.5 9.94 14.5 9.95 C 14.5 10.46 14.49 10.97 14.46 11.49 C 14.44 11.86 14.4 12.22 14.34 12.58 C 14.3 12.8 14.24 13.01 14.15 13.21 C 14.11 13.3 14.06 13.38 13.99 13.46 C 13.92 13.52 13.83 13.58 13.74 13.62 C 13.54 13.71 13.33 13.77 13.11 13.81 C 12.75 13.87 12.39 13.91 12.02 13.93 C 11.5 13.96 10.99 13.97 10.47 13.97 C 10.47 13.97 10.47 13.97 10.47 13.97 L 5.53 13.97 C 5.53 13.97 5.53 13.97 5.53 13.97 C 5.01 13.97 4.5 13.96 3.98 13.93 C 3.61 13.91 3.25 13.87 2.89 13.81 C 2.67 13.77 2.46 13.71 2.26 13.62 C 2.17 13.58 2.08 13.52 2.01 13.46 C 1.94 13.38 1.89 13.3 1.85 13.21 C 1.76 13.01 1.7 12.8 1.66 12.58 C 1.6 12.22 1.56 11.86 1.54 11.49 C 1.51 10.97 1.5 10.46 1.5 9.95 C 1.5 9.94 1.5 9.94 1.5 9.94 L 1.5 6.06 C 1.5 6.06 1.5 6.06 1.5 6.06 C 1.5 5.54 1.51 5.03 1.54 4.51 C 1.56 4.14 1.6 3.78 1.66 3.42 C 1.7 3.2 1.76 2.99 1.85 2.79 C 1.89 2.7 1.94 2.62 2.01 2.54 C 2.08 2.48 2.17 2.42 2.26 2.38 C 2.46 2.29 2.67 2.23 2.89 2.19 C 3.25 2.13 3.61 2.09 3.98 2.07 C 4.5 2.04 5.01 2.03 5.53 2.03 C 5.53 2.03 5.53 2.03 5.53 2.03 L 10.47 2.03 C 10.47 2.03 10.47 2.03 10.47 2.03 Z M 9.32 4 C 11.915 4 12.286 4.37 12.286 6.962 L 12.286 9.038 C 12.286 11.63 11.915 12 9.32 12 L 6.68 12 C 4.085 12 3.714 11.63 3.714 9.038 L 3.714 6.962 C 3.714 4.37 4.085 4 6.68 4 L 9.32 4 Z"/>
+  </g>
+
+  <g id="media-playback-start" transform="translate(0,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 3,2 V 14 L 14,8 Z"/>
+  </g>
+  <g id="media-playback-pause" transform="translate(22,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2,2 V 14 H 6 V 2 Z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 10,2 V 14 H 14 V 2 Z"/>
+  </g>
+  <g id="media-playback-stop" transform="translate(44,22)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 2,2 H 14 V 14 H 2 Z"/>
+  </g>
+
+  <g id="media-skip-forward" transform="translate(0,44)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 0 4 L 0 12 L 7 8 L 0 4 z M 7 8 L 7 12 L 14 8 L 7 4 L 7 8 z M 14 8 L 14 12 L 16 12 L 16 4 L 14 4 L 14 8 z"/>
+  </g>
+  <g id="media-skip-backward" transform="translate(22,44)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 0 4 L 0 12 L 2 12 L 2 8 L 2 4 L 0 4 z M 2 8 L 9 12 L 9 8 L 9 4 L 2 8 z M 9 8 L 16 12 L 16 4 L 9 8 z"/>
+  </g>
+  <g id="media-seek-forward" transform="translate(44,44)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8,8 1,12 V 4 Z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 15,8 8,12 V 4 Z"/>
+  </g>
+  <g id="media-seek-backward" transform="translate(66,44)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8,8 15,12 V 4 Z"/>
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 1,8 8,12 V 4 Z"/>
+  </g>
+
+  <g id="media-record" transform="translate(0,66)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 13,8 A 5,5 0 0 1 8,13 5,5 0 0 1 3,8 5,5 0 0 1 8,3 5,5 0 0 1 13,8 Z"/>
+  </g>
+  <g id="media-eject" transform="translate(22,66)">
+    <use href="#box" />
+    <path fill="url(#oomox)" class="ColorScheme-Text" d="M 8,3 3,8 V 9 H 13 V 8 Z M 3,11 V 13 H 13 V 11 Z"/>
+  </g>
+</svg>
